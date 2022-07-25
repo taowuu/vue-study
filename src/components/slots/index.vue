@@ -8,6 +8,7 @@
       <!-- 匿名插槽 -->
       <template>content...</template>
       <!-- 作用域插槽 -->
+      <!-- 数据来自子组件 -->
       <template v-slot:footer="{fc}">{{fc}}</template>
     </Layout>
   </div>

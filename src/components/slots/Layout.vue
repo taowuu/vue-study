@@ -29,7 +29,7 @@
     },
     computed: {
       footerContent() {
-        return this.remark[new Date().getDay() - 1] 
+        return this.remark[0] 
       }
     },
   }
